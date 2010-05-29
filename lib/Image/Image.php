@@ -180,7 +180,7 @@ class Image
     else
     {
       $newWidth =  $width;
-      $newHeight = $height;
+      $newHeight = null;
     }
 
     $this->resize($newWidth, $newHeight);
